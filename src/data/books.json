@@ -1,0 +1,40 @@
+[
+  {
+    "stock": 5,
+    "isbn": "001",
+    "title": "Java in Depth",
+    "year": 2018,
+    "price": 50.0,
+    "type": "PAPER"
+  },
+  {
+    "fileType": "PDF",
+    "isbn": "002",
+    "title": "Clean Code",
+    "year": 2015,
+    "price": 30.0,
+    "type": "EBOOK"
+  },
+  {
+    "isbn": "005",
+    "title": "Design Patterns (Demo)",
+    "year": 2004,
+    "price": 0.0,
+    "type": "SHOWCASE"
+  },
+  {
+    "stock": 1,
+    "isbn": "008",
+    "title": "The Art of Computer Programming",
+    "year": 2011,
+    "price": 100.0,
+    "type": "PAPER"
+  },
+  {
+    "isbn": "009",
+    "title": "Machine Learning Showcase",
+    "year": 2023,
+    "price": 90.0,
+    "type": "SHOWCASE"
+  }
+]
