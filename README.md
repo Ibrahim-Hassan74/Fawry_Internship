@@ -52,31 +52,32 @@ The system is **extensible**, making it easy to add more book types in the futur
 
 src/
 ├── data/
-│ └── books.json
+│   └── books.json
 ├── enums/
-│ ├── BookType.java
-│ └── FileType.java
+│   ├── BookType.java
+│   └── FileType.java
 ├── extensions/
-│ ├── MailService.java
-│ └── ShippingService.java
+│   ├── MailService.java
+│   └── ShippingService.java
 ├── model/
-│ └── Book.java
+│   └── Book.java
 ├── repository/
-│ └── BookRepository.java
+│   └── BookRepository.java
 ├── repositoryContract/
-│ └── IBookRepository.java
+│   └── IBookRepository.java
 ├── service/
-│ ├── BookManager.java
-│ ├── EBookService.java
-│ ├── PaperBookService.java
-│ └── ShowcaseBookService.java
+│   ├── BookManager.java
+│   ├── EBookService.java
+│   ├── PaperBookService.java
+│   └── ShowcaseBookService.java
 ├── serviceContract/
-│ ├── IBookManager.java
-│ └── IBookService.java
+│   ├── IBookManager.java
+│   └── IBookService.java
 ├── utils/
-│ └── JsonHelper.java
+│   └── JsonHelper.java
 ├── BookStoreApp.java
 └── Main.java
+
 
 ---
 
