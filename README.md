@@ -1,5 +1,4 @@
-```markdown
-[🎬 Watch Demo Video](https://github.com/Ibrahim-Hassan74/Fawry_Internship/tree/master/demo/BookStoreDemo.mp4)
+[🎬 Watch Demo Video](https://github.com/Ibrahim-Hassan74/Fawry_Internship/blob/master/demo/BookStoreDemo.mp4)
 
 # 📚 Quantum Book Store - Fawry Internship Challenge
 
@@ -52,6 +51,7 @@ The system is **extensible**, making it easy to add more book types in the futur
 ---
 
 ## 📂 File Structure
+
 ```
 
 src/
@@ -88,44 +88,31 @@ src/
 
 ## 📌 Assumptions & Extras
 
-```
-
-- author field added to all book types.
+- `author` field added to all book types.
 - Books are loaded dynamically from JSON with type detection.
-- Used a BookManager to abstract logic between repository and services.
-- Used delayedPrint() for all UI messages for better UX.
-- System follows SOLID principles and is open for extension.
-
-```
+- Used a `BookManager` to abstract logic between repository and services.
+- Used `delayedPrint()` for all UI messages for better UX.
+- System is built on SOLID principles and open for extension.
 
 ---
 
 ## 🛠 Tech Stack
 
-```
-
 - Java 17+
 - Gson (for JSON parsing)
 - Console-based UI
-
-```
 
 ---
 
 ## ▶️ How to Run
 
-```
-
 1. Clone the repo.
-2. Ensure books.json exists at: src/data/books.json
-3. Run Main.java → which calls BookStoreApp.run()
-
-```
+2. Ensure `books.json` exists at: `src/data/books.json`
+3. Run `Main.java` → which calls `BookStoreApp.run()`
 
 ---
 
 ## 👨‍💻 Developed By
 
-**Ibrahim Hassan**
+**Ibrahim Hassan**  
 Fawry Internship Candidate
-```
