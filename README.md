@@ -1,4 +1,4 @@
-[🎬 Watch Demo Video](https://drive.google.com/file/d/1fKz2zcM_0xhvvr7JPN8tIk2Qc_r_AJ5Z/view?usp=drivesdk)
+[🎬 Watch Demo Video](https://github.com/Ibrahim-Hassan74/Fawry_Internship/blob/master/demo/BookStoreDemo.mp4)
 
 # 📚 Quantum Book Store - Fawry Internship Challenge
 
