@@ -1,3 +1,6 @@
+```markdown
+[🎬 Watch Demo Video](https://github.com/Ibrahim-Hassan74/Fawry_Internship/tree/master/demo/BookStoreDemo.mp4)
+
 # 📚 Quantum Book Store - Fawry Internship Challenge
 
 This is a console-based Java application simulating an online bookstore, developed for the Fawry Internship challenge.
@@ -16,14 +19,14 @@ The system is **extensible**, making it easy to add more book types in the futur
 
 ### 🧾 Book Types
 
-- **📦 Paper Book**
-  - Has stock.
-  - Can be shipped.
-- **📥 EBook**
-  - Has a file type (PDF, EPUB, MOBI).
-  - Sent via email.
-- **🖼️ Showcase Book**
-  - Not purchasable (demo only).
+- 📦 Paper Book  
+  Has stock and can be shipped.
+
+- 📥 EBook  
+  Has a file type (PDF, EPUB, MOBI) and is sent via email.
+
+- 🖼️ Showcase Book  
+  Not purchasable (demo only).
 
 ### 📚 Book Management
 
@@ -44,70 +47,85 @@ The system is **extensible**, making it easy to add more book types in the futur
 - Books are saved/loaded to/from `books.json`.
 - Type-specific fields like `stock` and `fileType` are serialized properly.
 - The author is stored and displayed for each book.
-- All system messages are prefixed with:
+- All system messages are prefixed.
 
 ---
 
 ## 📂 File Structure
+```
 
 src/
-├── data/
-│   └── books.json
-├── enums/
-│   ├── BookType.java
-│   └── FileType.java
-├── extensions/
-│   ├── MailService.java
-│   └── ShippingService.java
-├── model/
-│   └── Book.java
-├── repository/
-│   └── BookRepository.java
-├── repositoryContract/
-│   └── IBookRepository.java
-├── service/
-│   ├── BookManager.java
-│   ├── EBookService.java
-│   ├── PaperBookService.java
-│   └── ShowcaseBookService.java
-├── serviceContract/
-│   ├── IBookManager.java
-│   └── IBookService.java
-├── utils/
-│   └── JsonHelper.java
 ├── BookStoreApp.java
-└── Main.java
+├── Main.java
+├── data/
+│ └── books.json
+├── enums/
+│ ├── BookType.java
+│ └── FileType.java
+├── extensions/
+│ ├── MailService.java
+│ └── ShippingService.java
+├── model/
+│ └── Book.java
+├── repository/
+│ └── BookRepository.java
+├── repositoryContract/
+│ └── IBookRepository.java
+├── service/
+│ ├── BookManager.java
+│ ├── EBookService.java
+│ ├── PaperBookService.java
+│ └── ShowcaseBookService.java
+├── serviceContract/
+│ ├── IBookManager.java
+│ └── IBookService.java
+├── utils/
+│ └── JsonHelper.java
 
+```
 
 ---
 
 ## 📌 Assumptions & Extras
 
-- `author` field added to all book types.
+```
+
+- author field added to all book types.
 - Books are loaded dynamically from JSON with type detection.
-- Used a `BookManager` to abstract logic between repository and services.
-- Used `delayedPrint()` for all UI messages for better UX.
-- System is built on SOLID principles and open for extension.
+- Used a BookManager to abstract logic between repository and services.
+- Used delayedPrint() for all UI messages for better UX.
+- System follows SOLID principles and is open for extension.
+
+```
 
 ---
 
 ## 🛠 Tech Stack
 
+```
+
 - Java 17+
 - Gson (for JSON parsing)
 - Console-based UI
+
+```
 
 ---
 
 ## ▶️ How to Run
 
+```
+
 1. Clone the repo.
-2. Ensure `books.json` exists in `src/data/`.
-3. Run `Main.java` → which calls `BookStoreApp.run()`.
+2. Ensure books.json exists at: src/data/books.json
+3. Run Main.java → which calls BookStoreApp.run()
+
+```
 
 ---
 
 ## 👨‍💻 Developed By
 
-**Ibrahim Hassan**  
+**Ibrahim Hassan**
 Fawry Internship Candidate
+```

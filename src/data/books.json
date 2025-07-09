@@ -1,6 +1,6 @@
 [
   {
-    "stock": 5,
+    "stock": 4,
     "isbn": "001",
     "title": "Java in Depth",
     "year": 2018,
@@ -23,7 +23,7 @@
     "type": "SHOWCASE"
   },
   {
-    "stock": 1,
+    "stock": 8,
     "isbn": "008",
     "title": "The Art of Computer Programming",
     "year": 2011,
